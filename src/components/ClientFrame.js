@@ -5,6 +5,7 @@ import ClientDetails from './ClientDetails';
 class ClientFrame extends Component {
 
   render() {
+    console.log(this.props.clientList)
     return (
         <div>
         <div class="col-sm-5 col-lg-5">
